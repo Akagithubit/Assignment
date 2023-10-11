@@ -1,0 +1,90 @@
+body {
+    background-color: #505454;
+    font-family: Arial, sans-serif;
+   
+}
+h2{
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+.container {
+    background-color: #e5ebec;
+    max-width: 400px;
+    margin:0 auto;
+    padding:2px 35px 10px 45px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 10px;
+    
+  
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 27em;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1.5px solid #0f0f0f;
+    border-radius: 5px;
+}
+
+.form-group .inline {
+    display:inline-block;
+    width: 50%;
+    margin-right: 2%;
+    margin-top:10px;
+}
+
+.form-group .gender {
+    width: 50%;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #111111;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn.reset {
+    background-color: #d24545;
+}
+
+#popup {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#popup-content {
+    background-color: #fff;
+    max-width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
